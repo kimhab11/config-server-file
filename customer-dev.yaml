@@ -12,6 +12,9 @@ spring:
     name: customer
   config:
     import: optional:configserver:http://localhost:9090
+
+server:
+  port: 8089
 eureka:
   client:
     service-url:
