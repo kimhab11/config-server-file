@@ -7,8 +7,6 @@ spring:
     url: r2dbc:pool:postgresql://localhost:2346/user_db
     password: user
     username: user
-  profiles:
-    active: dev
-
+    
 server:
   port: 8082
