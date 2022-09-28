@@ -1,12 +1,11 @@
+server:
+  port: 8082
+
 spring:
   application:
     name: user-service
 
-  #r2dbc (database webflux)
   r2dbc:
     url: r2dbc:pool:postgresql://localhost:2346/user_db
     password: user
     username: user
-    
-server:
-  port: 8082
